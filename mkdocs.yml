@@ -1,4 +1,76 @@
-site_name: My Docs
+site_name: Alpha's Programming Notes
+site_description: Short snippets of information, code snippets and articles that I want to keep handy.
+copyright: Made with ❤️ by Alpha Olomi.
+repo_name: alphaolomi/my-notes
+repo_url: https://github.com/alphaolomi/my-notes
+edit_uri: edit/main/docs/
+docs_dir: ./docs
+site_dir: ./site
 
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  shortcuts:
+    next: 78 # n
+    previous: 80 # p
+    search: 83 # s
+  language: en
+  include_search_page: true
+  search_index_only: true
+  features:
+    - navigation.instant
+    - search.share
+    - search.highlight
+    - search.suggest
+  font:
+    text: Noto Sans
+    code: IMB Plex Mono
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      prebuild_index: python
+      lang:
+        - en
+  - minify:
+      minify_html: true
+  - roamlinks
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/alphaolomi
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/alphaolomi
+  analytics:
+    provider: google
+    property: G-CX88WH16LM
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - toc:
+      permalink: true
+

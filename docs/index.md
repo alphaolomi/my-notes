@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+## Alpha's Programming Notes 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+I have been writing these notes for a while now, but I have only recently decided to publish them. I write these notes in [Sublime](https://www.sublimetext.com/) because it is faster and more lightweight than [Visual Studio Code](https://code.visualstudio.com/). I use [MkDocs](https://www.mkdocs.org/) to generate the website from the markdown files hosted on [GitHub](https://github.com/alphaolomi/my-notes) and deploy it to [Netlify](https://netlify.com).
 
-## Commands
+## Why I write these notes
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+I write these notes to help me remember what I have learned. I also write these notes to help others who are learning to program. I hope that these notes will help you learn to program.
 
-## Project layout
+<br>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+> Stay tuned for more updates!
