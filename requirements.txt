@@ -29,7 +29,7 @@ nltk==3.7
 packaging==21.3
 Pillow==9.3.0
 pycparser==2.21
-Pygments==2.13.0
+Pygments==2.15.0
 pygtrie==2.5.0
 pymdown-extensions==10.0
 pyparsing==3.0.9
