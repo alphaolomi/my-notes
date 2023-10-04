@@ -27,7 +27,7 @@ mkdocs-minify-plugin==0.5.0
 mkdocs-roamlinks-plugin==0.2.0
 nltk==3.7
 packaging==21.3
-Pillow==9.3.0
+Pillow==10.0.1
 pycparser==2.21
 Pygments==2.15.0
 pygtrie==2.5.0
